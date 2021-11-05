@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="تیزبام یک سامانه شبیهساز آزمون تیزهوشان می‌باشد که شرکت در این آزمون‌ها باعث می‌شود دانش‌آموز مهیای آزمون نهایی تیزهوشان شود." />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/logo.jpg" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.jpg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+      ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Tizbam &mdash; talent test</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="navigation-bar">
+        <div class="flex">
+          <a href="#">
+            <img class="logo-img" alt="Tizbam logo" src="img/logo.jpg" />
+          </a>
+          <p class="logo-name">تیزبام</p>
+        </div>
+        <ul class="main-nav-list">
+          <li>
+            <a href="#submit" class="main-nav-link btn-nav">ثبت‌نام آزمون</a>
+          </li>
+          <li><a href="#what" class="main-nav-link">تیزبام چیست؟</a></li>
+          <li><a href="#feature" class="main-nav-link">ویژگی‌های تیزبام</a></li>
+          <li><a href="#team-design" class="main-nav-link">تیم طراحی آزمون</a></li>
+          <li><a href="#plan-test" class="main-nav-link">برنامه آزمون</a></li>
+        </ul>
+        <div>
+          <a href="#" class="link"><ion-icon name="moon"></ion-icon></a>
+          <a href="#" class="link"
+            ><ion-icon name="enter-outline"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section-hero">
+        <div class="hero-text-box">
+          <p class="hero-subheading">خوش آمدید به</p>
+          <h1 class="heading-primary">تیزبام</h1>
+          <a href="#submit" class="btn btn--full">ثبت نام آزمون</a>
+          <a href="#what" class="btn btn--outline">اطلاعات بیشتر</a>
+        </div>
+      </div>
+        
+      <section class="section-what container" id="what">
+        <h2 class="heading-secondary text-center">تیزبام چیست؟</h2>
+        <div class="flex">
+          <div>
+            <p class="description">تیزبام سامانه آنلاین برگزاری و صدور کارنامه تحلیلی آزمون‌های آمادگی تیزهوشان می‌باشد که با کمک آن، دانش‌آموزان می‌توانند خود را برای شرکت در آزمون ورودی مدارس تیزهوشان آماده نمایند. آزمون‌های تیزبام توسط برترین اساتید تیزهوشان کشور طراحی گردیده و بیشترین همخوانی را با محتوای آزمون ورودی تیزهوشان داراست.
+            <p class="description">تیزبام یکی از خدمات مؤسسه علمی خبرگان (نخبه) است که با هدف توسعه عدالت آموزشی و ایجاد دسترسی ملی به آزمون‌های استاندارد و با کیفیت توسعه یافته است.</p>
+            </p>
+          </div>
+          <img src="/img/what-img.png" alt="kid read a book" class="what-img" />
+        </div>
+      </section>
+
+      <section class="section-feature container" id="feature">
+        <h2 class="heading-secondary text-center">ویژگی‌های تیزبام</h2>
+        <div class="grid grid--2-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="bar-chart-outline"></ion-icon>
+            <p class="feature-title">ارائه کارنامه تحلیلی</p>
+            <p class="feature-text">کارنامه آزمون تیزبام یک کارنامه ساده نیست. در کارنامه تیزبام با کمک هوش مصنوعی، نکات تحلیلی بسیاری خواهید دید که شامل اطلاعات مفیدی از جمله احتمال قبولی در انواع مدارس تیزهوشان، سطح پیشرفت دانش‌آموز و ... می‌باشد که کمک شایانی به دانش‌آموز، مشاورین و والدین در جهت هدایت فرزند خود می‌کند. کارنامه آزمون با رعایت اصول علمی و آماری تهیه شده و روش تهیه آن به تأیید کارشناسان امر رسیده است. کارنامه آزمون در کمتر از 15 دقیقه پس از پایان آزمون در اختیار دانش‌آموز قرار خواهد گرفت.</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="globe-outline"></ion-icon>
+            <p class="feature-title">برگزاری آنلاین</p>
+            <p class="feature-text">در تیزبام تلاش می‌کنیم تمامی دانش‌آموزان مستعد فارغ از محل زندگی و تحصیل خود به آزمون‌های با کیفیت و شبیه‌سازی شده تیزهوشان دسترسی داشته باشند. تنها پیشنیاز لازم برای شرکت در آزمون، دسترسی به اینترنت است. همچنین محیط آزمون و سامانه‌ی مربوطه توسط تیمی حرفه‌ای از بهترین مهندسان رایانه کشور توسعه یافته و از بالاترین استانداردهای طراحی برخوردار است.</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="people-outline"></ion-icon>
+            <p class="feature-title">جامعه آماری بالا</p>
+            <p class="feature-text">تیزبام به دلیل جامعه آماری مطلوب و حضور پرتعداد دانش‌آموزان برتر در آزمون‌ها، می‌تواند معیار مناسبی برای بررسی سطح فعلی دانش‌آموز و کمک به پیشرفت او در طول آزمون‌ها و آماده شدن دانش‌آموز برای آزمون‌ نهایی به طرز مطلوبی می‌باشد.</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="newspaper-outline"></ion-icon>
+            <p class="feature-title">مطابقت با آزمون اصلی</p>
+            <p class="feature-text">تیزبام با کمک اساتید برتر و مسلط به آزمون‌های تیزهوشان پایه ششم، سعی می‌کند آزمون‌های آزمایشی کاملاً مشابه آزمون نهایی تیزهوشان ارائه دهد. این امر باعث می‌شود در طول آزمون‌های آزمایشی تیزبام، دانش‌آموز کاملاً با سبک سؤالات آزمون تیزهوشان آشنا شود.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-design-team container" id="team-design">
+        <h2 class="heading-secondary text-center">تیم طراحی آزمون</h2>
+        
+        <div class="slideshow-container fade">
+          <div class="containers-carousel">
+            <div class="group-teacher grid grid--4-cols">
+              <div class="teacher">
+                <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                <div class="teacher-content">
+                  <div class="teacher-tags">
+                    <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                    <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                  </div>
+                  <p class="teacher-name">استاد شماره یک</p>
+                  <ul class="teacher-cv">
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="teacher">
+                <img src="img/profile/profile-picture-2.jpg" alt="a teacher" class="profile-pic" />
+                <div class="teacher-content">
+                  <div class="teacher-tags">
+                    <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                    <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                  </div>
+                  <p class="teacher-name">استاد شماره دو</p>
+                  <ul class="teacher-cv">
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="teacher">
+                <img src="img/profile/profile-picture-3.jpg" alt="a teacher" class="profile-pic" />
+                <div class="teacher-content">
+                  <div class="teacher-tags">
+                    <span class="tag tag--iq2">طراح سؤالات ریاضی</span>
+                    <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                  </div>
+                  <p class="teacher-name">استاد شماره سه</p>
+                  <ul class="teacher-cv">
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="teacher">
+                <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                <div class="teacher-content">
+                  <div class="teacher-tags">
+                    <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                    <span class="tag tag--science">طراح سؤالات هوش کلامی</span>
+                  </div>
+                  <p class="teacher-name">استاد شماره چهار</p>
+                  <ul class="teacher-cv">
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                    <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="containers-carousel">
+            <div class="group-teacher grid grid--4-cols">
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-2.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره پنج</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-2.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره شش</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-2.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--iq2">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره هفت</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-2.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--science">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره هشت</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="containers-carousel">
+            <div class="group-teacher grid grid--4-cols">
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره نهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره دهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--iq2">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره یازدهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-4.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--science">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره دوازدهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="containers-carousel">
+            <div class="group-teacher grid grid--4-cols">
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-3.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره سیزدهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-3.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره چهاردهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-3.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--iq2">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--iq1">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره پانزدهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="teacher">
+                  <img src="img/profile/profile-picture-3.jpg" alt="a teacher" class="profile-pic" />
+                  <div class="teacher-content">
+                    <div class="teacher-tags">
+                      <span class="tag tag--math">طراح سؤالات ریاضی</span>
+                      <span class="tag tag--science">طراح سؤالات هوش کلامی</span>
+                    </div>
+                    <p class="teacher-name">استاد شماره شانزدهم</p>
+                    <ul class="teacher-cv">
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>فارغ‌التحصیل دانشگاه تهران</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>دارای مدال طلای المپیاد کشوری</li>
+                      <li class="cv-item"><ion-icon class="cv-icon" name="checkmark-circle-outline"></ion-icon>طراح سه دوره از سوالات تیزهوشان</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <a class="btn-carousel btn-carousel-right" onclick="plusSlides(-1)"><ion-icon class="carousel-icon" name="chevron-back-outline"></ion-icon></a>
+          <a class="btn-carousel btn-carousel-left" onclick="plusSlides(1)"><ion-icon class="carousel-icon" name="chevron-forward-outline"></ion-icon></a>
+        </div>
+        <br>
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!-- <div class="dots">
+          <span class="dot" onclick="currentSlide(1)">&nbsp;</span>
+          <span class="dot" onclick="currentSlide(2)">&nbsp;</span>
+          <span class="dot" onclick="currentSlide(3)">&nbsp;</span>
+          <span class="dot" onclick="currentSlide(4)">&nbsp;</span>
+        </div> -->
+      </section>
+
+      <section class="section-plan-test container" id="plan-test">
+        <h2 class="heading-secondary text-center">برنامه آزمون‌ها</h2>
+        <table class="table-plan">
+          <thead>
+            <tr>
+              <th>تاریخ آزمون</th>
+              <th>ریاضی</th>
+              <th>علوم</th>
+              <th>هوش کلامی</th>
+              <th>هوش غیرکلامی</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1400/09/26</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/10/10</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/10/24</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/11/08</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/11/22</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/12/06</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1400/12/20</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+            <tr>
+              <th>1401/01/19</th>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+              <td>تا پایان فصل دوم</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section-book container">
+        <h2 class="heading-secondary text-center">کتب پیشنهادی</h2>
+        <div class="book">
+          <img src="img/book/hoosh-complex.jpg" alt="complex inteligence book" class="book-pic" />
+          <img src="img/book/hoosh-multiple.jpg" alt="multiple inteligence book" class="book-pic" />
+          <img src="img/book/hoosh-kalami.webp" alt="verbal inteligence book" class="book-pic" />
+          <img src="img/book/riazi-q.jpg" alt="math question book" class="book-pic" />
+          <img src="img/book/riazi-a.jpg" alt="math answer book" class="book-pic" />
+          <img src="img/book/olum.jpg" alt="science book" class="book-pic" />
+        </div>
+      </section>
+
+      <section class="section-submit container" id="submit">
+        <h2 class="heading-secondary text-center">ثبت نام</h2>
+        <div class="specifications-part">
+          <div class="step">
+            <div class="step-box">
+              <button class="step-number step-number-fill">1</button>
+              <p class="step-name">مشخصات</p>
+            </div>
+            <div class="step-box">
+              <button class="step-number">2</button>
+              <p class="step-name">آزمون‌ها</p>
+            </div>
+            <div class="step-box">
+              <button class="step-number">3</button>
+              <p class="step-name">کتاب‌ها</p>
+            </div>
+            <div class="step-box">
+              <button class="step-number">4</button>
+              <p class="step-name">تأیید نهایی</p>
+            </div>
+          </div>
+          <form class="form">
+            <div class="radio-form">
+              <div class="radio-input">
+                <input id="personal-submit" type="radio" />
+                <label for="personal-submit">ثبت نام فردی (مخصوص دانش‌آموزان)</label>
+              </div>
+              <div class="radio-input">
+                <input id="group-submit" type="radio" />
+                <label for="group-submit">ثبت نام گروهی (مخصوص مدارس، آموزشگاه‌ها و مشاورین)</label>
+              </div>
+            </div>
+            <div class="submit-form">
+              <div>
+                <label for="full-name">نام و نام‌خانوادگی</label>
+                <input id="full-name" type="text" placeholder="محمد اکبری" required />
+              </div>
+              <div>
+                <label for="tel-number">شماره تلفن همراه</label>
+                <input id="tel-number" type="text" placeholder="*******0912" required />
+              </div>
+              <div>
+                <label for="id-code">کد ملی</label>
+                <input id="id-code" type="text" placeholder="*******008" required />
+              </div>
+              <div>
+                <label for="grade">مقطع تحصیلی</label>
+                <select id="grade" required>
+                  <option value="">پایه تحصیلی</option>
+                  <option value="sixth">پایه ششم</option>
+                  <option value="nineth">پایه نهم</option>
+                </select>
+              </div>
+              <div>
+                <label for="gender">جنسیت</label>
+                <select id="gender" required>
+                  <option value="">انتخاب جنسیت</option>
+                  <option value="boy">پسر</option>
+                  <option value="girle">دختر</option>
+                </select>
+              </div>
+              <div>
+                <label for="state">استان</label>
+                <select id="state" required>
+                  <option value="">استان محل تحصیل</option>
+                  <option value="tehran">تهران</option>
+                  <option value="tabriz">تبریز</option>
+                  <option value="esfahan">اصفهان</option>
+                  <option value="fars">فارس</option>
+                  <option value="khuzestan">خوزستان</option>
+                  <option value="khorasan-razavi">خراسان رضوی</option>
+                </select>
+              </div>
+              <div>
+                <label for="grade">شهرستان</label>
+                <select id="grade" required>
+                  <option value="">شهرستان محل تحصیل</option>
+                  <option value="tehran">تهران</option>
+                  <option value="shiraz">شیراز</option>
+                  <option value="mashad">مشهد</option>
+                </select>
+              </div>
+              <div>
+                <label for="school-name">نام مدرسه</label>
+                <input id="school-name" type="text" placeholder="هدف" required />
+              </div>
+            </div>
+            <button class="btn-next-step">گام بعد</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="map">
+          <p class="footer-heading">مکان روی نقشه</p>
+          <a href="https://www.google.com/maps/place/%D9%85%D9%88%D8%B3%D8%B3%D9%87+%D8%B9%D9%84%D9%85%DB%8C+%D8%AE%D8%A8%D8%B1%DA%AF%D8%A7%D9%86+%D9%86%D8%AE%D8%A8%D9%87%E2%80%AD/@35.7187573,51.4028728,15z/data=!4m5!3m4!1s0x0:0x8dd4ebff3923fc4a!8m2!3d35.71878!4d51.4028671" class="footer-map">
+            <img src="img/map-pic.PNG" alt="location map" class="map-pic" />
+          </a>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">تماس با ما</p>
+          <address class="contacts">
+            <p class="address">
+              تهران، میدان جهاد (فاطمی)، خیابان فاطمی، روبروی وزارت کشور، پلاک 44
+            </p>
+            <p>
+              <a class="footer-link" href="tel:02188993844">021-88993844</a>
+              <br />
+              <a class="footer-link" href="mailto:hello@tizbam.com">hello@tizbam.com</a>
+            </p>
+          </address>
+        </div>
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img src="img/logo.jpg" alt="tizbam logo" class="logo-img" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="paper-plane-outline"></ion-icon></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-whatsapp"></ion-icon></a>
+            </li>
+          </ul>
+
+          <p class="copyright" dir="ltr">
+            Copyright &copy; <span class="year">2021</span> by Tizbam, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">سایر خدمات مجموعه</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">مؤسسه علمی خبرگان</a></li>
+            <li><a class="footer-link" href="#">مدارس هدف</a></li>
+            <li><a class="footer-link" href="#">همایشی</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="slogan">
+        <p class="slogan-text"><span class="slogan-bold-text">تیزبام</span> بر بام تیزهوشان</p>
+      </div>
+    </footer>
+  </body>
+</html>
